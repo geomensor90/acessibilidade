@@ -104,10 +104,10 @@ def perguntas():
             fotos["0.9 Dimensão dos Vãos das Grelhas"] = st.file_uploader("Envie uma foto", type=["png", "jpg", "jpeg"], key="0foto_dimensao_vaos_grelhas")
 
         # Pergunta 0.10
-        tampas_caixa_inspecao = st.checkbox("As tampas de caixa de inspeção ou de visita não estão niveladas com o piso e/ou suas frestas estão com dimensão maior de 1,50m e/ou não estão firmes ou estáveis (ABNT NBR 9050:2020 - item 6.3.6)", 
+        tampas_caixa_inspecao = st.checkbox("As tampas de caixa de inspeção ou de visita não estão niveladas com o piso e/ou suas frestas estão com dimensão maior de 1,50cm e/ou não estão firmes ou estáveis (ABNT NBR 9050:2020 - item 6.3.6)", 
                                             key="0tampas_caixa_inspecao")
         if tampas_caixa_inspecao:
-            resultados["0.10 Tampas de Caixa de Inspeção"] = "As tampas de caixa de inspeção ou de visita não estão niveladas com o piso e/ou suas frestas estão com dimensão maior de 1,50m e/ou não estão firmes ou estáveis (ABNT NBR 9050:2020 - item 6.3.6)"
+            resultados["0.10 Tampas de Caixa de Inspeção"] = "As tampas de caixa de inspeção ou de visita não estão niveladas com o piso e/ou suas frestas estão com dimensão maior de 1,50cm e/ou não estão firmes ou estáveis (ABNT NBR 9050:2020 - item 6.3.6)"
             fotos["0.10 Tampas de Caixa de Inspeção"] = st.file_uploader("Envie uma foto", type=["png", "jpg", "jpeg"], key="0foto_tampas_caixa_inspecao")
 
         # Pergunta 0.11
